@@ -12,9 +12,9 @@
     <meta property="og:url" content="https://www.promoscasaley.com.mx/llevateunbuensabor/" />
 	<meta property="fb:app_id" content="2003835493171756" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Vigencia de la promoción: 2 de Agosto al 30 de septiembre de 2021." />	
+	<meta property="og:title" content="Vigencia de la promoción: 15 de Agosto al 15 de septiembre de 2021." />	
 	<meta property="og:image:alt" content="image"/>
-	<meta property="og:description" content="Poder Tomatero Yemina®"/>
+	<meta property="og:description" content="Llévate un buen sabor de boca"/>
 	<meta property="og:image" content="https://www.promoscasaley.com.mx/llevateunbuensabor/img/img_facebook.jpg" />
 
 	
@@ -30,15 +30,6 @@
   	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/slick-theme.css">
   	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   	
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151891774-13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-151891774-13');
-</script>
 
  	<!-- componente fecha simple -->
      <?php echo link_tag('css/bootstrap-datepicker.css'); ?>    
@@ -59,7 +50,7 @@
 		//echo "<span style='color:white'>".$today_formatted."</span><br>";
 
 		$abrir = '2019/01/15 08:57:00'; #could be (almost) any string date
-		$cerrar = '2021/09/30 23:59:59'; #could be (almost) any string date
+		$cerrar = '2021/09/15 23:59:59'; #could be (almost) any string date
 		if (($today_formatted > $abrir)&&($today_formatted < $cerrar)){
 			$GLOBALS['open']=1;
 		}else{

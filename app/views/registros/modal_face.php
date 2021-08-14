@@ -73,7 +73,7 @@ var $cantidad_puntos="1";
 				      name: 'Poder Tomatero Yemina®',
 				      link: 'https://www.promoscasaley.com.mx/llevateunbuensabor/',
 				      picture: 'https://www.promoscasaley.com.mx/llevateunbuensabor/img/img_facebook.jpg',
-				      caption: 'Vigencia de la promoción: 2 de Agosto al 30 de septiembre de 2021.',
+				      caption: 'Vigencia de la promoción: 15 de Agosto al 15 de septiembre de 2021.',
 				      description: 'Poder Tomatero Yemina®'
 				    },
 				    function(response) {
@@ -99,7 +99,7 @@ var $cantidad_puntos="1";
 					      name: 'Poder Tomatero Yemina®',
 				      link: 'https://www.promoscasaley.com.mx/llevateunbuensabor/',
 				      picture: 'https://www.promoscasaley.com.mx/llevateunbuensabor/img/img_facebook.jpg',
-				      caption: 'Vigencia de la promoción: 2 de Agosto al 30 de septiembre de 2021.',
+				      caption: 'Vigencia de la promoción: 15 de Agosto al 15 de septiembre de 2021.',
 				      description: 'Poder Tomatero Yemina®'
 				       },
 				       function(response) {
@@ -121,7 +121,7 @@ var $cantidad_puntos="1";
 					      name: 'Poder Tomatero Yemina®',
 				      link: 'https://www.promoscasaley.com.mx/llevateunbuensabor/',
 				      picture: 'https://www.promoscasaley.com.mx/llevateunbuensabor/img/img_facebook.jpg',
-				      caption: 'Vigencia de la promoción: 2 de Agosto al 30 de septiembre de 2021.',
+				      caption: 'Vigencia de la promoción: 15 de Agosto al 15 de septiembre de 2021.',
 				      description: 'Poder Tomatero Yemina®'
 				      },
 				      function(response) {
