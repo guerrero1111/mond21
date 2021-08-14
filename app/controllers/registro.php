@@ -176,7 +176,7 @@ function validar_registros(){
 										$esp_nuevo = $usuario['email'];
 										$this->email->from('admin@promoscasaley.com.mx', 'Promos Casaley');
 										$this->email->to( $esp_nuevo );
-										$this->email->subject('Registro en la promoción de YEMINA®'); //.$this->session->userdata('c2')
+										$this->email->subject('Registro en la promoción de Llevate un buen sabor'); //.$this->session->userdata('c2')
 										$this->email->message( $this->load->view('admin/correos/alta_usuario', $dato, TRUE ) );
 										$this->email->send();
 

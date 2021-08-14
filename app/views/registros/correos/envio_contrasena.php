@@ -21,7 +21,7 @@
 	   	 <td scope="row" style="text-align:center">
 	   	 	
 	    	
-	    	<p style="font-family:'Myriad Pro', 'Myriad Pro Bold', Verdana, Arial; font-size:28px; text-transform: uppercase; color:#000000">Tus datos de acceso para la promoción promoción de YEMINA®:</p>
+	    	<p style="font-family:'Myriad Pro', 'Myriad Pro Bold', Verdana, Arial; font-size:28px; text-transform: uppercase; color:#000000">Tus datos de acceso para la promoción promoción Llevate un buen sabor:</p>
 	    	<p style="color:#000000 !important;width:100%;text-align:center;font-size:22px;">Usuario: </p></br>
 	    	<p style="color:#000000 !important;width:100%;text-align:center;font-size:22px;"><?php echo $nick; ?></p></br>
 	    	<p style="color:#000000 !important;width:100%;text-align:center;font-size:22px;">Contraseña:</p></br>

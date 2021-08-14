@@ -61,11 +61,11 @@ var $cantidad_puntos="100";
 		     		
 				FB.ui({
 				      method: 'feed',
-				      name: 'Poder Tomatero Yemina®',
+				      name: 'Llévate un buen sabor',
 				      link: 'https://www.promoscasaley.com.mx/llevateunbuensabor/',
 				      picture: 'https://www.promoscasaley.com.mx/llevateunbuensabor/img/img_facebook.jpg',
 				      caption: 'Vigencia de la promoción: 15 de Agosto al 15 de septiembre de 2021.',
-				      description: 'Poder Tomatero Yemina®'
+				      description: 'Llévate un buen sabor'
 				    },
 				    function(response) {
 						if (response !=null) { 	
@@ -87,11 +87,11 @@ var $cantidad_puntos="100";
      		} else if (response.status === 'not_authorized') { //cuando esta conectado pero no por la app
 				FB.ui({
 					      method: 'feed',
-					      name: 'Poder Tomatero Yemina®',
+					      name: 'Llévate un buen sabor',
 				      link: 'https://www.promoscasaley.com.mx/llevateunbuensabor/',
 				      picture: 'https://www.promoscasaley.com.mx/llevateunbuensabor/img/img_facebook.jpg',
 				      caption: 'Vigencia de la promoción: 15 de Agosto al 15 de septiembre de 2021.',
-				      description: 'Poder Tomatero Yemina®'
+				      description: 'Llévate un buen sabor'
 				       },
 				       function(response) {
 							if (response !=null) { 	
@@ -109,11 +109,11 @@ var $cantidad_puntos="100";
      			$("#response").html("No hay sesión iniciada en facebook");
 				FB.ui({
 					      method: 'feed',
-					      name: 'Poder Tomatero Yemina®',
+					      name: 'Llévate un buen sabor',
 				      link: 'https://www.promoscasaley.com.mx/llevateunbuensabor/',
 				      picture: 'https://www.promoscasaley.com.mx/llevateunbuensabor/img/img_facebook.jpg',
 				      caption: 'Vigencia de la promoción: 15 de Agosto al 15 de septiembre de 2021.',
-				      description: 'Poder Tomatero Yemina®'
+				      description: 'Llévate un buen sabor'
 				      },
 				      function(response) {
 							if (response !=null) { 	
