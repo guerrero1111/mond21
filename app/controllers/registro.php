@@ -574,7 +574,7 @@ function validar_tickets(){
 			$ticket['tipo']			=	$this->input->post('tipo'); 
 
 			$this->form_validation->set_rules( 'ticket', 'Núm de Ticket', 'trim|required|min_length[28]|min_length[28]|xss_clean');	//numeric|
-			$this->form_validation->set_rules( 'monto', 'Monto de la compra', 'trim|required|numeric|min_length[1]|max_length[20]|xss_clean|greater_than[29]');				
+			$this->form_validation->set_rules( 'monto', 'Monto de la compra', 'trim|required|numeric|min_length[1]|max_length[20]|xss_clean|greater_than[14]');				
 			$this->form_validation->set_rules( 'compra', 'Fecha de Compra', 'trim|required|callback_valid_fecha[compra]|xss_clean');
 
 			$this->form_validation->set_rules( 'id_ciudad_compra', 'Ciudad de compra', 'required|callback_valid_option|xss_clean');
