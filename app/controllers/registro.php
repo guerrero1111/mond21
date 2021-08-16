@@ -481,7 +481,7 @@ public function getModulo11($str) {
 function validando_encriptado($data){
 	 $ticket=str_replace(" ", "", $data["ticket"]);
 	 $cadena=str_replace(" ", "", '2424 3535 2424 3535 2424 353');
-	 $llave=7584;
+	 $llave=7585;
 	 $primer_num=intval(substr($data["folio"], 0, 4)); //los 4primeros
 	 
 
@@ -517,7 +517,7 @@ function validando_encriptado($data){
 function conformar_folio($data){
 	  $ticket=str_replace(" ", "", $data["ticket"]);
          $cadena=str_replace(" ", "", '2424 3535 2424 3535 2424 353');
-         $llave=7584;
+         $llave=7585;
           $suma=0;
           $total=0;
         
