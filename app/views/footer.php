@@ -19,7 +19,7 @@
 
 <script>
 window.oncontextmenu = function() {
-//return false;
+return false;
 
 } </script>
 	<!-- SCRIPTS -->

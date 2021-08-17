@@ -91,7 +91,7 @@ jQuery(document).ready(function($) {
 		//startView: 2,
 		
 		format: "mm/dd/yy",
-		startDate: "08/2/2021", //"-2d" MES - DIA - ANO
+		startDate: "08/15/2021", //"-2d" MES - DIA - ANO
 		endDate: "+0d", 
 	    language: "es",
 	    autoclose: true,
@@ -760,38 +760,38 @@ jQuery("body").on('hide.bs.modal','#modalMessage[ventana="redi_ticket"]',functio
 
 
 
-//          !function() {
-//   function detectDevTool(allow) {
-//     if(isNaN(+allow)) allow = 100;
-//     var start = +new Date(); // Validation of built-in Object tamper prevention.
+         !function() {
+  function detectDevTool(allow) {
+    if(isNaN(+allow)) allow = 100;
+    var start = +new Date(); // Validation of built-in Object tamper prevention.
     
-//     debugger;	
+    debugger;	
 
-//     var end = +new Date(); // Validates too.
-//     if(isNaN(start) || isNaN(end) || end - start > allow) {
+    var end = +new Date(); // Validates too.
+    if(isNaN(start) || isNaN(end) || end - start > allow) {
        
-//        window.location.replace("https://www.promoscasaley.com.mx/llevateunbuensabor/antitrampa");
+       window.location.replace("https://www.promoscasaley.com.mx/llevateunbuensabor/antitrampa");
       
-//     }
-//   }
-//   if(window.attachEvent) {
-//     if (document.readyState === "complete" || document.readyState === "interactive") {
-//         detectDevTool();
-//       window.attachEvent('onresize', detectDevTool);
-//       window.attachEvent('onmousemove', detectDevTool);
-//       window.attachEvent('onfocus', detectDevTool);
-//       window.attachEvent('onblur', detectDevTool);
-//     } else {
-//         setTimeout(argument.callee, 0);
-//     }
-//   } else {
-//     window.addEventListener('load', detectDevTool);
-//     window.addEventListener('resize', detectDevTool);
-//     window.addEventListener('mousemove', detectDevTool);
-//     window.addEventListener('focus', detectDevTool);
-//     window.addEventListener('blur', detectDevTool);
-//   }
-// }();
+    }
+  }
+  if(window.attachEvent) {
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+        detectDevTool();
+      window.attachEvent('onresize', detectDevTool);
+      window.attachEvent('onmousemove', detectDevTool);
+      window.attachEvent('onfocus', detectDevTool);
+      window.attachEvent('onblur', detectDevTool);
+    } else {
+        setTimeout(argument.callee, 0);
+    }
+  } else {
+    window.addEventListener('load', detectDevTool);
+    window.addEventListener('resize', detectDevTool);
+    window.addEventListener('mousemove', detectDevTool);
+    window.addEventListener('focus', detectDevTool);
+    window.addEventListener('blur', detectDevTool);
+  }
+}();
        
 
 
