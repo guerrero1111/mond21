@@ -42,7 +42,7 @@ body {
     display: inline-block;
 }
 .imgtres{
-       width: 29%;
+       width: 45%;
     margin: 0px auto;
     display: block;
 }
@@ -166,9 +166,7 @@ if ($GLOBALS['open']==1) {
             
                 <img src="<?php echo base_url()?>img/cerrado.png" class="img-responsive sinizquierdo homeizquierda1 imgtres" style="">
             
-            <a href="<?php echo base_url(); ?>recuperar_participante" class="">
-                <img src="<?php echo base_url()?>img/homerecuperar.png" class="img-responsive sinizquierdo homeizquierda1 imgtres" style="">
-            </a>
+            
             <img src="<?php echo base_url()?>img/registrohomemensaje2.png" class="img-responsive sinizquierdo homeizquierda1 imgcuatros" style="">
         </div>
         <div class="col-md-3 col-md-3 text-center">
