@@ -50,7 +50,7 @@
 		//echo "<span style='color:white'>".$today_formatted."</span><br>";
 
 		$abrir = '2019/01/15 08:57:00'; #could be (almost) any string date
-		$cerrar = '2021/09/15 23:59:59'; #could be (almost) any string date
+		$cerrar = '2021/09/15 23:59:45'; #could be (almost) any string date
 		if (($today_formatted > $abrir)&&($today_formatted < $cerrar)){
 			$GLOBALS['open']=1;
 		}else{
